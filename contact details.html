@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Contact-me</title>
+</head>
+
+<body>
+  <h1>My Contact Details</h1>
+  <p>
+  <h3>Address:</h3>
+  <ul>
+    H No: 1-22 <br>Adraspally Village <br>Shamirpet Mandal <br>Medchal District <br>Telangana - 500078 <br>India
+  </ul>
+  </p>
+  <p>
+  <h3>Contact:</h3>
+  <ul><b>Phone: </b><em>+91-8464948157</em> <br><b>e-mail: </b><em>bhargavyamjala@gmail.com</em></ul>
+  </p>
+
+  <h4>Please fill the form below before contacting me...</h4>
+
+  <form action="mailto:bhargavyamjala@gmail.com" method="post" encrypt="utf-8">
+    <fieldset>
+      <label>First Name: </label>
+      <input type="text">
+      <label>Last Name: </label>
+      <input type="text"> <br>
+      <label>Title: </label>
+      <input type="radio" name="gender" id="male">
+      <label for="male">Mr.</label>
+      <input type="radio" name="gender" id="female1">
+      <label for="female1">Mrs.</label>
+      <input type="radio" name="gender" id="female2">
+      <label for="female2">Ms.</label>
+      <br>
+      <table>
+        <label>Contact info:</label>
+        <tr>
+          <td><label for="">Phone: </label>
+            <input type="text" name="phone" value=""></td>
+        </tr>
+        <tr>
+          <td><label for="">email: </label>
+            <input type="email" name="email" value=""></td>
+        </tr>
+      </table>
+      <label for="">How did you come to know about me?</label>
+      <br>
+      <input type="checkbox" name="cb group" id="cb1">
+      <label for="cb1">Friends/Relatives</label><br>
+      <input type="checkbox" name="cb group" id="cb2">
+      <label for="cb2">Collegues</label><br>
+      <input type="checkbox" name="cb group" id="cb3">
+      <label for="cb3">Social Media</label><br>
+      <input type="checkbox" name="cb group" id="cb4">
+      <label for="cb4">Others</label>
+
+      <br>
+      <label for="about">Your Message:</label><br>
+      <textarea name="about" rows="8" cols="80"></textarea>
+    </fieldset>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+</html>
